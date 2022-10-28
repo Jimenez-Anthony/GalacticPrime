@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2772545857997838793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2772545857997838791}
+  - component: {fileID: 2772545857997838792}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2772545857997838791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772545857997838793}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2772545857997838792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772545857997838793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde7c2f7ae2c3441cb3f60c1d71ca533, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: TitleSong
+  music: {fileID: 243401581042219950, guid: eea74997c446a4c93967595fada85ff3, type: 2}
+  sfx: {fileID: 243817214800162278, guid: eea74997c446a4c93967595fada85ff3, type: 2}
+  sounds:
+  - name: Tutorial
+    clip: {fileID: 8300000, guid: 7598d4d37b46c194782d362a76ea3015, type: 3}
+    volume: 0.155
+    pitch: 1
+    pitchShift: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: TitleSong
+    clip: {fileID: 8300000, guid: 4955b5636dace30428bd7bffd2e5e828, type: 3}
+    volume: 0.2
+    pitch: 1
+    pitchShift: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: PlayerLaser
+    clip: {fileID: 8300000, guid: 081f1a51442c4e64cb3c1c2ce4de2ef6, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchShift: 0.15
+    loop: 0
+    source: {fileID: 0}
+  - name: HeartBeat
+    clip: {fileID: 8300000, guid: 684c2e8aa4982894ab75b320d5f28e46, type: 3}
+    volume: 0.2
+    pitch: 1
+    pitchShift: 0.15
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerSlash
+    clip: {fileID: 8300000, guid: 062f53fdd279cf2408ad8612b231aa42, type: 3}
+    volume: 1
+    pitch: 1
+    pitchShift: 0.15
+    loop: 0
+    source: {fileID: 0}
+  - name: Axel
+    clip: {fileID: 8300000, guid: 5c386ccc616d24db69057446565ef4ea, type: 3}
+    volume: 0.13
+    pitch: 1
+    pitchShift: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: SkeletonDeath
+    clip: {fileID: 8300000, guid: 47b4aca3dceb146d7b12a940f95f4c83, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchShift: 0.15
+    loop: 0
+    source: {fileID: 0}
+  - name: SkeletonHit
+    clip: {fileID: 8300000, guid: bca6b2364e83e49c99b8b57234515828, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchShift: 0.15
+    loop: 0
+    source: {fileID: 0}
+  - name: SkeletonWalk
+    clip: {fileID: 8300000, guid: bef50625b062c438e834bb974aeb24cb, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchShift: 0.15
+    loop: 0
+    source: {fileID: 0}
+  - name: SkeletonAttack
+    clip: {fileID: 8300000, guid: 0acc124716b204ec29d68d1cfdfc6e00, type: 3}
+    volume: 0.7
+    pitch: 1
+    pitchShift: 0.15
+    loop: 0
+    source: {fileID: 0}
+  - name: MinecraftDeathMusic
+    clip: {fileID: 8300000, guid: 216ef843826f443769bb9baa2b666d85, type: 3}
+    volume: 1
+    pitch: 1
+    pitchShift: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Victory
+    clip: {fileID: 8300000, guid: 0b19f86ce5a4d4e0f8c83b04a7a31842, type: 3}
+    volume: 0.7
+    pitch: 1
+    pitchShift: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: MinecraftHurt
+    clip: {fileID: 8300000, guid: da6c8972dc66b4438afa426bf180dea9, type: 3}
+    volume: 0.7
+    pitch: 1
+    pitchShift: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Fyeah
+    clip: {fileID: 8300000, guid: eaf37209a5c0c43dba706c68b54288af, type: 3}
+    volume: 0.155
+    pitch: 1
+    pitchShift: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Surface
+    clip: {fileID: 8300000, guid: e265bdb06080f49f28be7e44b678b26e, type: 3}
+    volume: 0.155
+    pitch: 1
+    pitchShift: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Cave
+    clip: {fileID: 8300000, guid: 9958f6aa729464fb3b6a4205f2766a5b, type: 3}
+    volume: 0.155
+    pitch: 1
+    pitchShift: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Sewer
+    clip: {fileID: 8300000, guid: 0185fe091ad9f4fc698d4ae9657b5192, type: 3}
+    volume: 0.155
+    pitch: 1
+    pitchShift: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Credits
+    clip: {fileID: 8300000, guid: 45e4c27daf9cb434fac51496394adabd, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchShift: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Africa
+    clip: {fileID: 8300000, guid: f2447518e6b024ffbbd1fc51d4242a9f, type: 3}
+    volume: 0.155
+    pitch: 1
+    pitchShift: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Fireworks
+    clip: {fileID: 8300000, guid: 15faab5208df340429182a0714bc8f36, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchShift: 0
+    loop: 1
+    source: {fileID: 0}

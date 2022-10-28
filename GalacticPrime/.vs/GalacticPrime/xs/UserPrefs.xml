@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{F1883B18-D2E3-8EF2-549A-3D40B0124E33}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Items/WIreliaGun.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Misc/GameMaster.cs" Line="264" Column="45" />
+      <File FileName="Assets/Scripts/Player/JStatusController.cs" />
+      <File FileName="Assets/Scripts/Generators/SurfaceDecorGenerator.cs" />
+      <File FileName="Assets/Scripts/Misc/LootManager.cs" />
+      <File FileName="Assets/Scripts/Misc/LevelManager.cs" />
+      <File FileName="Assets/Scripts/Misc/LevelSettings.cs" />
+      <File FileName="Assets/Scripts/Structures/StalkerRoomStructure.cs" />
+      <File FileName="Assets/Scripts/Misc/JProceduralGenerator.cs" />
+      <File FileName="Assets/Scripts/Enemies/StalkerBall.cs" />
+      <File FileName="Assets/Scripts/Misc/SewegeParticle.cs" />
+      <File FileName="Assets/Scripts/Player/JHealthController.cs" Line="120" Column="10" />
+      <File FileName="Assets/Scripts/Misc/JProceduralStructureGenerator.cs" />
+      <File FileName="Assets/Scripts/Enemies/StalkerBehavior.cs" />
+      <File FileName="Assets/Scripts/Items/WComboNail.cs" />
+      <File FileName="Assets/Scripts/UI/LeaderboardUI.cs" />
+      <File FileName="Assets/Imports/dreamlo/dreamloLeaderBoard.cs" />
+      <File FileName="Assets/Scripts/UI/AreaStatsUI.cs" />
+      <File FileName="Assets/Scripts/UI/MainMenu.cs" />
+      <File FileName="Assets/Scripts/AI/JMapGenerator.cs" />
+      <File FileName="Assets/Scripts/Items/WIreliaGun.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GalacticPrime" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Imports" expanded="True">
+                <Node name="dreamlo" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="AI" expanded="True">
+                  <Node name="New" expanded="True" />
+                </Node>
+                <Node name="Effects" expanded="True" />
+                <Node name="Enemies" expanded="True" />
+                <Node name="Generators" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Items" expanded="True">
+                  <Node name="WIreliaGun.cs" selected="True" />
+                </Node>
+                <Node name="Media" expanded="True" />
+                <Node name="Misc" expanded="True" />
+                <Node name="Player" expanded="True" />
+                <Node name="Structures" expanded="True" />
+                <Node name="UI" expanded="True" />
+              </Node>
+              <Node name="Shaders" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d9bf0850-0549-44cb-859a-b5d1ca4a5be0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

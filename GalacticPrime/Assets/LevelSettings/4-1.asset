@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18d6f7ddd587467381f6e25934879d7, type: 3}
+  m_Name: 4-1
+  m_EditorClassIdentifier: 
+  lvlID: 1
+  lvlType: 4
+  mobSpawns: []
+  mobSpawnChance: 0
+  mapSize: {x: 100, y: 70}
+  generateSpikes: 0
+  spikeChance: 5
+  generateCrates: 0
+  generateLadders: 0
+  generateGrass: 0
+  generateArrowTrap: 0
+  arrowTrapChance: 0.5
+  generateHealingStation: 0
+  healingStationChance: 1
+  generateRechargingStation: 0
+  rechargingStationChance: 1
+  generateStrcuture: 0
+  spawnSkeletonKing: 0
+  skeletonKingChance: 3
+  spawnMechPortal: 0
+  mechPortalChance: 0.75
+  generateStalker: 0
+  generateRocketMan: 0
+  baseTile: {fileID: 11400000, guid: 1d2b40b881e7c48a9baea911b156aa21, type: 2}
+  overrideCrateLootable: 0
+  crateLootTable: []
+  overrideGoldenCrateLootable: 0
+  goldenCrateLootTable: []

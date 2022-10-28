@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18d6f7ddd587467381f6e25934879d7, type: 3}
+  m_Name: 2-1
+  m_EditorClassIdentifier: 
+  lvlID: 1
+  lvlType: 0
+  mobSpawns:
+  - mob: {fileID: 831148645321170985, guid: 6e359ff7639854a40b43c9a2a5c89d7d, type: 3}
+    weight: 2
+  - mob: {fileID: 9167456792139498753, guid: 791a4392b58884dbdbb6ce76307be10a, type: 3}
+    weight: 1
+  mobSpawnChance: 5
+  mapSize: {x: 128, y: 72}
+  generateSpikes: 1
+  spikeChance: 5
+  generateCrates: 1
+  generateLadders: 1
+  generateGrass: 1
+  generateArrowTrap: 0
+  arrowTrapChance: 0.5
+  generateHealingStation: 0
+  healingStationChance: 1
+  generateRechargingStation: 0
+  rechargingStationChance: 1
+  generateStrcuture: 1
+  spawnSkeletonKing: 0
+  skeletonKingChance: 3
+  spawnMechPortal: 0
+  mechPortalChance: 0.75
+  generateStalker: 0
+  generateRocketMan: 0
+  baseTile: {fileID: 11400000, guid: 3300b97a9fcf40c4e91ac9ac686f136d, type: 2}
+  overrideCrateLootable: 1
+  crateLootTable:
+  - itemStack:
+      item: {fileID: 11400000, guid: 6224b474624864113a61e89ae381c2d9, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 3cc623d8175ad40ddbd352179f88d892, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 2f219a423f5bb43fdaf0501649facdf9, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 60b989aa60c204a30b6c37d956ab82de, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: f92d6fd160e924ff7b3100b6fe994a5d, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 7f3a6a6cbac8441a4810f63ecf791e4d, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: b5bddfdc0a1c142bb9fa12531f4aba61, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: e00377b67c46f40c9944e124c4ff1e0e, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.5
+  overrideGoldenCrateLootable: 0
+  goldenCrateLootTable: []

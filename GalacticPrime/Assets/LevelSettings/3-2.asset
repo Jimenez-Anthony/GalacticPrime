@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18d6f7ddd587467381f6e25934879d7, type: 3}
+  m_Name: 3-2
+  m_EditorClassIdentifier: 
+  lvlID: 1
+  lvlType: 3
+  mobSpawns:
+  - mob: {fileID: 5432028767571416045, guid: 2baef40d30f124fa18b5f27932cf6130, type: 3}
+    weight: 2
+  - mob: {fileID: 4939800127784856558, guid: bd4ae629115dc46caba4b963f12097a8, type: 3}
+    weight: 3
+  - mob: {fileID: 181559942667128532, guid: 7dc93566d15ab4077b729c6e4ca4f2dd, type: 3}
+    weight: 1
+  mobSpawnChance: 5
+  mapSize: {x: 128, y: 72}
+  generateSpikes: 1
+  spikeChance: 3
+  generateCrates: 1
+  generateLadders: 0
+  generateGrass: 0
+  generateArrowTrap: 1
+  arrowTrapChance: 0.5
+  generateHealingStation: 1
+  healingStationChance: 0.5
+  generateRechargingStation: 1
+  rechargingStationChance: 0.5
+  generateStrcuture: 1
+  spawnSkeletonKing: 0
+  skeletonKingChance: 3
+  spawnMechPortal: 1
+  mechPortalChance: 0.7
+  generateStalker: 1
+  generateRocketMan: 0
+  baseTile: {fileID: 11400000, guid: d03638a338974454ab53c047b1c1b057, type: 2}
+  overrideCrateLootable: 0
+  crateLootTable: []
+  overrideGoldenCrateLootable: 1
+  goldenCrateLootTable:
+  - itemStack:
+      item: {fileID: 11400000, guid: d8abb93c4b1c74263bcb45501f7e82ee, type: 2}
+      count: 1
+      durability: 100
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 37893981e2ace467ea8dc35deb89af5e, type: 2}
+      count: 1
+      durability: 1000
+    weight: 0.5
+  - itemStack:
+      item: {fileID: 11400000, guid: 56c056814f5cb4af7b5dd648cebcbade, type: 2}
+      count: 1
+      durability: 100
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 7dcecc8d0febb40739c7eb69f81cdfbe, type: 2}
+      count: 1
+      durability: 100
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 0f57cb1d8c5a84be8a975515daba884f, type: 2}
+      count: 1
+      durability: 100
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 55daefe36287f426a8013239d1a7f721, type: 2}
+      count: 1
+      durability: 100
+    weight: 0.5
+  - itemStack:
+      item: {fileID: 11400000, guid: bd5775ccc52e844e695dff0451961f0e, type: 2}
+      count: 1
+      durability: 100
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 4db11586c5937432f979d613f83e4df8, type: 2}
+      count: 1
+      durability: 100
+    weight: 0.5
+  - itemStack:
+      item: {fileID: 11400000, guid: db4c7e41bca104cfeb901022aa36375c, type: 2}
+      count: 1
+      durability: 100
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: cb667b9a7bcfb48c0a5de90554f93abf, type: 2}
+      count: 1
+      durability: 100
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 31d59040d04784d0c80313a6a72deba1, type: 2}
+      count: 10
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 295a91d9ff21d4967a030a8511abdd04, type: 2}
+      count: 5
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 5faa639a4e6694401b6b05223a4f71cc, type: 2}
+      count: 5
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: b2e91cb120345441d8199d64729cf2e6, type: 2}
+      count: 1
+      durability: 100
+    weight: 0.5

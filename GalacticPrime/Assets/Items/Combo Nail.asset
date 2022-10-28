@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a43d50cf91904af2a796b76950cd5a6, type: 3}
+  m_Name: Combo Nail
+  m_EditorClassIdentifier: 
+  name: Advanced Nail
+  description: 'Slashes the area in front and micro stuns
+
+
+    If the player is able to hit an enemy in two different directions (left and right),
+    the next attack will be a critical hit that has a bigger radius and heals the
+    player
+
+
+    Damage: 7
+
+    Energy: 3
+
+    Stun duration: 0.65
+
+
+    Critical Damage: 9
+
+    Critical Stun Duration: 3
+
+    Critical Heal: 2'
+  itemType: 0
+  icon: {fileID: 21300000, guid: e80e4743d5c764e4ab220e33bd69947c, type: 3}
+  durability: 100
+  stackSize: 1
+  prefab: {fileID: 1102029383892328432, guid: 29a00fc86e0ad4014839156c6381690d, type: 3}

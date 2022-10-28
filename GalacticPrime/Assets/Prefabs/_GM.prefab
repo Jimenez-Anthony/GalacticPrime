@@ -1,0 +1,374 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1159921152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1159921153}
+  - component: {fileID: 1159921154}
+  m_Layer: 0
+  m_Name: MobSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1159921153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159921152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8635776179849653063}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1159921154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159921152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df11d14976e4437ba108a170bd5067b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnChance: 0
+  spawns:
+  - mob: {fileID: 9167456792139498753, guid: 791a4392b58884dbdbb6ce76307be10a, type: 3}
+    weight: 3
+  - mob: {fileID: 5844882768049542758, guid: b2bceea06fb9445d982d330740c20625, type: 3}
+    weight: 2
+  - mob: {fileID: 5432028767571416045, guid: 2baef40d30f124fa18b5f27932cf6130, type: 3}
+    weight: 1
+  startPos: {x: 0, y: 0, z: 0}
+--- !u!1 &8635776179849653061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8635776179849653063}
+  - component: {fileID: 8635776179849653060}
+  - component: {fileID: 886691264}
+  - component: {fileID: 886691265}
+  - component: {fileID: 886691266}
+  - component: {fileID: 378242136}
+  - component: {fileID: 8635776180199379195}
+  m_Layer: 0
+  m_Name: _GM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8635776179849653063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635776179849653061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1159921153}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8635776179849653060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635776179849653061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659f63d5107f04d69a0faec593b4a8e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameState: 0
+  generateRandomMap: 1
+  startLevelOnStart: 1
+  playerRespawns: 0
+  playerRespawnPoint: {x: 0, y: 0, z: 0}
+  player: {fileID: 0}
+  playerEnergy: {fileID: 0}
+  inventory: {fileID: 0}
+  targeter: {fileID: 0}
+  levelGenerator: {fileID: 0}
+  tilemap: {fileID: 0}
+  pathMapGenerator: {fileID: 0}
+  levelManager: {fileID: 0}
+  lootManager: {fileID: 0}
+  mobManager: {fileID: 0}
+  droppedItem: {fileID: 3162239983126242567, guid: 2e15792a33dea47c6b000b818e96bfe5,
+    type: 3}
+  crateDrops:
+  - item: {fileID: 11400000, guid: b5bddfdc0a1c142bb9fa12531f4aba61, type: 2}
+    count: 1
+    durability: 0
+  - item: {fileID: 11400000, guid: 7f3a6a6cbac8441a4810f63ecf791e4d, type: 2}
+    count: 1
+    durability: 0
+  - item: {fileID: 11400000, guid: 3cc623d8175ad40ddbd352179f88d892, type: 2}
+    count: 1
+    durability: 0
+  - item: {fileID: 11400000, guid: f92d6fd160e924ff7b3100b6fe994a5d, type: 2}
+    count: 1
+    durability: 0
+  - item: {fileID: 11400000, guid: d8abb93c4b1c74263bcb45501f7e82ee, type: 2}
+    count: 1
+    durability: 0
+  - item: {fileID: 11400000, guid: 60b989aa60c204a30b6c37d956ab82de, type: 2}
+    count: 1
+    durability: 0
+  - item: {fileID: 11400000, guid: db4c7e41bca104cfeb901022aa36375c, type: 2}
+    count: 1
+    durability: 0
+  - item: {fileID: 11400000, guid: 2f219a423f5bb43fdaf0501649facdf9, type: 2}
+    count: 1
+    durability: 0
+  gameStats:
+    damageTaken: 0
+    damageDealt: 0
+    amountHealed: 0
+    cratesBorken: 0
+    timeTaken: 0
+    jumpTimes: 0
+  pauseMenu: {fileID: 0}
+  loadingScreen: {fileID: 0}
+  loadingBar: {fileID: 0}
+  caveBackground: {fileID: 0}
+  surfaceBackground: {fileID: 0}
+  sewerBackground: {fileID: 0}
+  cityBackground: {fileID: 0}
+  levelComplete: {fileID: 0}
+  areaComplete: {fileID: 0}
+  levelDesciption: {fileID: 0}
+  bossPanel: {fileID: 0}
+  buffPanel: {fileID: 0}
+  buffs: {fileID: 0}
+--- !u!114 &886691264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635776179849653061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac23d15bee1d4cb0815b727f4026562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &886691265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635776179849653061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d69913230d24be9a1457d97ff0c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 886691266}
+--- !u!114 &886691266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635776179849653061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f1692af09034306ac58f6fddd30f31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugging: 0
+  setupAstar: 1
+  debug: {fileID: 8969429781385742028, guid: b14f1f719b8d642d0998ce779dffa74d, type: 3}
+  debug2: {fileID: 5303844540105215262, guid: dc3f34f94f64e4d9a952c791877fa6f9, type: 3}
+  tilemap: {fileID: 0}
+  pathfinder: {fileID: 886691265}
+  maxJumpTiles: 4
+  nodeSize: 1
+--- !u!114 &378242136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635776179849653061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6407d3451e4cc4aaea7dd280016fdf6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 0}
+  anim: {fileID: 0}
+  delay: 0.03
+--- !u!114 &8635776180199379195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635776179849653061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132bf9d88d7fe4a758b653eb71e295c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crate:
+  - itemStack:
+      item: {fileID: 11400000, guid: b5bddfdc0a1c142bb9fa12531f4aba61, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 6224b474624864113a61e89ae381c2d9, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 7f3a6a6cbac8441a4810f63ecf791e4d, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: f92d6fd160e924ff7b3100b6fe994a5d, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 31d59040d04784d0c80313a6a72deba1, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.5
+  - itemStack:
+      item: {fileID: 11400000, guid: 60b989aa60c204a30b6c37d956ab82de, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 819b342dc45e24c639cf1067f2bece98, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 3cc623d8175ad40ddbd352179f88d892, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: e00377b67c46f40c9944e124c4ff1e0e, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: db4c7e41bca104cfeb901022aa36375c, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.1
+  - itemStack:
+      item: {fileID: 11400000, guid: d8abb93c4b1c74263bcb45501f7e82ee, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.05
+  - itemStack:
+      item: {fileID: 11400000, guid: 5faa639a4e6694401b6b05223a4f71cc, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: cb667b9a7bcfb48c0a5de90554f93abf, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.1
+  - itemStack:
+      item: {fileID: 11400000, guid: bd5775ccc52e844e695dff0451961f0e, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.1
+  - itemStack:
+      item: {fileID: 11400000, guid: 16c3a38e3e38f4c848273547e1212902, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 295a91d9ff21d4967a030a8511abdd04, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.5
+  goldenCrate:
+  - itemStack:
+      item: {fileID: 11400000, guid: db4c7e41bca104cfeb901022aa36375c, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: d8abb93c4b1c74263bcb45501f7e82ee, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.25
+  - itemStack:
+      item: {fileID: 11400000, guid: 819b342dc45e24c639cf1067f2bece98, type: 2}
+      count: 6
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: cb667b9a7bcfb48c0a5de90554f93abf, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 56c056814f5cb4af7b5dd648cebcbade, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 9fd791a55afa04086955c13eb3b80747, type: 2}
+      count: 1
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 31d59040d04784d0c80313a6a72deba1, type: 2}
+      count: 4
+      durability: 1
+    weight: 1
+  - itemStack:
+      item: {fileID: 11400000, guid: 7dcecc8d0febb40739c7eb69f81cdfbe, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.5
+  - itemStack:
+      item: {fileID: 11400000, guid: 4db11586c5937432f979d613f83e4df8, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.5
+  - itemStack:
+      item: {fileID: 11400000, guid: bd5775ccc52e844e695dff0451961f0e, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.5
+  - itemStack:
+      item: {fileID: 11400000, guid: 0f57cb1d8c5a84be8a975515daba884f, type: 2}
+      count: 1
+      durability: 1
+    weight: 0.5

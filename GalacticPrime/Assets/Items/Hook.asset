@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a43d50cf91904af2a796b76950cd5a6, type: 3}
+  m_Name: Hook
+  m_EditorClassIdentifier: 
+  name: Hook
+  description: 'Shoots a hook that attaches to any incoming tile and drags the player
+    to it
+
+'
+  itemType: 2
+  icon: {fileID: 21300000, guid: c111d9a86978b4d448acc18696ab5b8e, type: 3}
+  durability: 0
+  stackSize: 10
+  prefab: {fileID: 12088996793857447, guid: 7177552fd5b2740e88e5467557e10b92, type: 3}

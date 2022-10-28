@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a43d50cf91904af2a796b76950cd5a6, type: 3}
+  m_Name: Sadism
+  m_EditorClassIdentifier: 
+  name: Sadism
+  description: "Heals the player depending on how many enemies are within a 25 tile
+    range and can go over the player\u2019s max health points\n\nHeal per enemy: 1"
+  itemType: 2
+  icon: {fileID: 21300000, guid: 5d74a2ec686bc4c6db4c57143ee7231a, type: 3}
+  durability: 1
+  stackSize: 10
+  prefab: {fileID: 155848188686519552, guid: 70b357845935b440cbcb97c0f83885ae, type: 3}

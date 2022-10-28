@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a43d50cf91904af2a796b76950cd5a6, type: 3}
+  m_Name: GoldenApple
+  m_EditorClassIdentifier: 
+  name: Golden Apple
+  description: Heals for 7 HP and grants a second of invincibility when consumed
+  itemType: 3
+  icon: {fileID: 21300000, guid: 5019e4125dd6c4749a9f94e5c0804d92, type: 3}
+  durability: 0
+  stackSize: 10
+  prefab: {fileID: 2839536061352919672, guid: 8d43fa16be08542d4a9616d7e8daf49c, type: 3}

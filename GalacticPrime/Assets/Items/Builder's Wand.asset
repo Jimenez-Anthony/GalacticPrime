@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a43d50cf91904af2a796b76950cd5a6, type: 3}
+  m_Name: Builder's Wand
+  m_EditorClassIdentifier: 
+  name: Builder
+  description: 'Creates a temporary wall, hold the use key to place the wall further
+
+'
+  itemType: 2
+  icon: {fileID: 21300000, guid: 3171f4828b96a4754998a4982c5413aa, type: 3}
+  durability: 0
+  stackSize: 10
+  prefab: {fileID: 3826959952926667590, guid: 29674423eb5ab474eb6be2cefd96a74e, type: 3}

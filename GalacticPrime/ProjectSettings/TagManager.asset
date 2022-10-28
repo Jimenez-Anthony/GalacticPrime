@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Bullet
+  - Enemy
+  - Background
+  - EnemyAttack
+  - Wall
+  - Node
+  - Building
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - Enemy
+  - Obstacle
+  - Ladder
+  - Decor
+  - Brogurt
+  - Sewage
+  - Player
+  - Item
+  - Bullet
+  - EnemyObstacle
+  - TerrainOnly
+  - Boss
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1871298945
+    locked: 0
+  - name: Enemy
+    uniqueID: 976627743
+    locked: 0
+  - name: Effects
+    uniqueID: 1264390303
+    locked: 0

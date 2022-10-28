@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18d6f7ddd587467381f6e25934879d7, type: 3}
+  m_Name: 2-4
+  m_EditorClassIdentifier: 
+  lvlID: 1
+  lvlType: 0
+  mobSpawns:
+  - mob: {fileID: 5432028767571416045, guid: 2baef40d30f124fa18b5f27932cf6130, type: 3}
+    weight: 1
+  - mob: {fileID: 9167456792139498753, guid: 791a4392b58884dbdbb6ce76307be10a, type: 3}
+    weight: 3
+  - mob: {fileID: 5844882768049542758, guid: b2bceea06fb9445d982d330740c20625, type: 3}
+    weight: 2
+  - mob: {fileID: 4007091616029524983, guid: 2b49e10cfe44d43e39827d7a04a0333d, type: 3}
+    weight: 1
+  mobSpawnChance: 9
+  mapSize: {x: 128, y: 72}
+  generateSpikes: 1
+  spikeChance: 5
+  generateCrates: 1
+  generateLadders: 1
+  generateGrass: 1
+  generateArrowTrap: 1
+  arrowTrapChance: 0.25
+  generateHealingStation: 1
+  healingStationChance: 1
+  generateRechargingStation: 1
+  rechargingStationChance: 1
+  generateStrcuture: 1
+  spawnSkeletonKing: 1
+  skeletonKingChance: 3
+  spawnMechPortal: 1
+  mechPortalChance: 0.7
+  generateStalker: 0
+  generateRocketMan: 0
+  baseTile: {fileID: 11400000, guid: 3300b97a9fcf40c4e91ac9ac686f136d, type: 2}
+  overrideCrateLootable: 0
+  crateLootTable: []
+  overrideGoldenCrateLootable: 0
+  goldenCrateLootTable: []

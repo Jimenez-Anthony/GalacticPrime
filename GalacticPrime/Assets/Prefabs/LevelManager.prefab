@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6694365164780173069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6694365164780173067}
+  - component: {fileID: 6694365164780173066}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6694365164780173067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694365164780173069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 311452731}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6694365164780173066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694365164780173069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c48fd20f75944110b32dbdb8cf4063b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skipTutorial: 0
+  surfaceLevels:
+  - {fileID: 11400000, guid: d96e3bc2a7cd040e9ba4432efd1c24d6, type: 2}
+  - {fileID: 11400000, guid: ed2e22d48f57b4d0e8c774a0c3e88e86, type: 2}
+  caveLevels:
+  - {fileID: 11400000, guid: ac4ddcdf954784a0e825047d281fd65d, type: 2}
+  - {fileID: 11400000, guid: 3f7d26e5d0ae4487da321f7df1700793, type: 2}
+  - {fileID: 11400000, guid: b387a7436ddc54d4c9f83eb33b7fa0d7, type: 2}
+  - {fileID: 11400000, guid: 9cc825808499e4381ab75bba60493fed, type: 2}
+  - {fileID: 11400000, guid: b98f090e890cf4eec815516316daff9e, type: 2}
+  sewerLevels:
+  - {fileID: 11400000, guid: 9f88ec527534344deae4e86bf834e66a, type: 2}
+  - {fileID: 11400000, guid: 1eb2a3ad9e5464cdb9551bf6c6831085, type: 2}
+  - {fileID: 11400000, guid: c30d8b4730aec4409afa170c808fa8b0, type: 2}
+  - {fileID: 11400000, guid: ae6d5cdcf5dff41e1928b2ff94e6c911, type: 2}
+  - {fileID: 11400000, guid: 05f86eb369d2a4cb492f271c3e566656, type: 2}
+  cityLevel: {fileID: 11400000, guid: da2dcea3aed4a419a969b3c1676f3b3f, type: 2}
+  storedInventory: []
+  maxHP: 0
+  hp: 0
+  hpRegenAmount: 0
+  maxEnergy: 0
+  energyRegen: 0
+  armor: 0
+  dashCD: 0
+  timesDied: 0
+  totalTimesDied: 0
+  infinite: 0
+  inifiniteTries: 0
+  bossMode: 0
+  world: 1
+  level: 1
+  skeletonKingBuff: 0
+  centicleBuff: 0
+  stalkerBuff: 0
+  rocketManBuff: 0
+  allItems:
+  - {fileID: 11400000, guid: b5bddfdc0a1c142bb9fa12531f4aba61, type: 2}
+  - {fileID: 11400000, guid: 6224b474624864113a61e89ae381c2d9, type: 2}
+  - {fileID: 11400000, guid: 7f3a6a6cbac8441a4810f63ecf791e4d, type: 2}
+  - {fileID: 11400000, guid: 3cc623d8175ad40ddbd352179f88d892, type: 2}
+  - {fileID: 11400000, guid: 37893981e2ace467ea8dc35deb89af5e, type: 2}
+  - {fileID: 11400000, guid: f92d6fd160e924ff7b3100b6fe994a5d, type: 2}
+  - {fileID: 11400000, guid: 9fd791a55afa04086955c13eb3b80747, type: 2}
+  - {fileID: 11400000, guid: d8abb93c4b1c74263bcb45501f7e82ee, type: 2}
+  - {fileID: 11400000, guid: 4db11586c5937432f979d613f83e4df8, type: 2}
+  - {fileID: 11400000, guid: 5faa639a4e6694401b6b05223a4f71cc, type: 2}
+  - {fileID: 11400000, guid: cb667b9a7bcfb48c0a5de90554f93abf, type: 2}
+  - {fileID: 11400000, guid: 31d59040d04784d0c80313a6a72deba1, type: 2}
+  - {fileID: 11400000, guid: bd5775ccc52e844e695dff0451961f0e, type: 2}
+  - {fileID: 11400000, guid: 60b989aa60c204a30b6c37d956ab82de, type: 2}
+  - {fileID: 11400000, guid: db4c7e41bca104cfeb901022aa36375c, type: 2}
+  - {fileID: 11400000, guid: 56c056814f5cb4af7b5dd648cebcbade, type: 2}
+  - {fileID: 11400000, guid: 0f57cb1d8c5a84be8a975515daba884f, type: 2}
+  - {fileID: 11400000, guid: 55daefe36287f426a8013239d1a7f721, type: 2}
+  - {fileID: 11400000, guid: 295a91d9ff21d4967a030a8511abdd04, type: 2}
+  - {fileID: 11400000, guid: 155fd19d9148749f7a0e92493e55bbb3, type: 2}
+  - {fileID: 11400000, guid: 819b342dc45e24c639cf1067f2bece98, type: 2}
+  - {fileID: 11400000, guid: 16c3a38e3e38f4c848273547e1212902, type: 2}
+  - {fileID: 11400000, guid: 2f219a423f5bb43fdaf0501649facdf9, type: 2}
+  - {fileID: 11400000, guid: 7dcecc8d0febb40739c7eb69f81cdfbe, type: 2}
+  - {fileID: 11400000, guid: b2e91cb120345441d8199d64729cf2e6, type: 2}
+  - {fileID: 11400000, guid: e00377b67c46f40c9944e124c4ff1e0e, type: 2}
+  levelStats:
+    damageTaken: 0
+    damageDealt: 0
+    amountHealed: 0
+    cratesBorken: 0
+    timeTaken: 0
+    jumpTimes: 0
+  totalStats:
+    damageTaken: 0
+    damageDealt: 0
+    amountHealed: 0
+    cratesBorken: 0
+    timeTaken: 0
+    jumpTimes: 0
+  bossKills: 0
+--- !u!1001 &311852731
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6694365164780173067}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_Name
+      value: dreamloPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: privateCode
+      value: 1fBMVo3VF0enQP31tuvqzw0h1J5ZAD_0649YyvAqgByQ
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+      propertyPath: publicCode
+      value: 5cd13e523ebb39187028ec41
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab, type: 3}
+--- !u!4 &311452731 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 2ae922c7d8b784fc9aac6e923c5a88ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 311852731}
+  m_PrefabAsset: {fileID: 0}
